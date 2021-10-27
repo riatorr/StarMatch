@@ -1,15 +1,15 @@
 import * as React from 'react';
 import * as ReactDOMServer from 'react-dom/server';
 
-import { App } from 'components/App';
+import App from 'components/App';
 
 export async function serverRenderer() {
   const initialData = {
-    appName: 'Reactful',
+    appName: 'Star Match Game',
   };
 
   const pageData = {
-    title: `Hello ${initialData.appName}`,
+    title: `${initialData.appName}`,
   };
 
   return Promise.resolve({
