@@ -6,5 +6,6 @@ Requirements to run:
 
 To start the server and bundler:
   1. Open your terminal
-  2. Run `npm start`
-  3. Navigate to localhost:3000
+  2. `cd` to the cloned repository folder location
+  3. Run `npm start`
+  4. Open your favorite browser and navigate to localhost:3000
